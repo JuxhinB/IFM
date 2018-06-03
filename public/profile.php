@@ -1,0 +1,61 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<?php 
+include '../components/_head.php';
+?>
+<title>Home | GOAL</title>
+
+</head>
+	
+<body>
+<?php 
+include '../components/_main-menu.php';
+?>
+   <!-- Left Panel -->
+<!-- <div class="container-fluid">
+        <div class="row">
+<aside class="left-panel col-3">
+    <nav class="navbar navbar-expand-sm navbar-default w-100 h-100">
+        <div class="w-100 wrap">
+            <a class="nav-opt" href="profile.php"> 
+                <i class="menu-icon fa fa-dashboard"></i> Dashboard 
+            </a>
+        </div>
+        <h3 class="menu-title w-100">
+            Team Details
+        </h3>
+        <div class="w-100 wrap">
+            <a class="nav-opt" href="team.php"> 
+                <i class="menu-icon fa fa-user"></i> My Team 
+            </a>
+        </div>
+        <h3 class="menu-title w-100">
+            League Details
+        </h3>
+        <div class="w-100 wrap">
+            <a class="nav-opt" href="fixtures.php"> 
+                <i class="menu-icon fa fa-table"></i> Fixtures 
+            </a>
+        </div>
+        <div class="w-100 wrap">
+            <a class="nav-opt" href="schedule.php"> 
+                <i class="menu-icon fa fa-calendar"></i> Schedule 
+            </a>
+        </div>
+    </nav>
+</aside>
+</div>
+</div> -->
+<?php 
+include '../components/_footer.php';
+?>
+</body>
+</html>

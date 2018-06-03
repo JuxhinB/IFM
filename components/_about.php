@@ -1,10 +1,10 @@
 	<!-- about -->
 <div class="w3-agileits-about container-fluid" id="about">
 	<div class="row p-4">
-		<div class="col-12>"
+		<div class="col-12">
 			<div class="w3-agileits-about-top row">
-					<h3 class="col-12">WHY US</h3>
-					<p class="col-12">Nulla egestas sapien at lobortis mattis. Pellentesque nec quam ligula. Duis hendrerit libero vitae odio tincidunt venenatis. </p>
+					<h3 class="w-100">WHY US</h3>
+					<p class="w-100">Nulla egestas sapien at lobortis mattis. Pellentesque nec quam ligula. Duis hendrerit libero vitae odio tincidunt venenatis. </p>
 				<div class="clearfix"></div>
 		</div>
 			<div class="col-12">

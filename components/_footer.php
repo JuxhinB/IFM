@@ -19,30 +19,25 @@
 		</div>
 	</div>
 </div>
-<!-- /Footer Section -->
-
-<!-- start-smoth-scrolling -->
 <!-- js -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-<script src="js/JiSlider.js"></script>
+<script src="assets/js/jquery-2.1.4.min.js"></script>
+<script src="assets/js/JiSlider.js"></script>
 <script>
 	$(window).load(function () {
 		$('#JiSlider').JiSlider({color: '#fff', start: 1, reverse: false}).addClass('ff')
 	})
 </script>
-
 <!-- stats -->
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.countup.js"></script>
+<script src="assets/js/jquery.waypoints.min.js"></script>
+<script src="assets/js/jquery.countup.js"></script>
 <script>
 	$('.counter').countUp();
 </script>
 <!-- //stats -->
-<script type="text/javascript" src="js/moment.js"></script>
-<script type="text/javascript" src="js/moment-timezone-with-data.js"></script>
-<script type="text/javascript" src="js/timer.js"></script>
-<!-- //Custom-JavaScript-File-Links -->
-<script src="js/owl.carousel.js"></script>
+<script src="assets/js/moment.js"></script>
+<script src="assets/js/moment-timezone-with-data.js"></script>
+<script tsrc="assets/js/timer.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
 <script>
     $(document).ready(function() {
       $("#owl-demo2").owlCarousel({
@@ -55,9 +50,9 @@
       });
     });
 </script>
-<script src="js/index.js"></script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/move-top.js"></script>
+<script src="assets/js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -66,23 +61,9 @@
 		});
 	});
 </script>
-<!-- start-smoth-scrolling -->
-<!-- for bootstrap working -->
-	<script src="js/bootstrap.bundle.min.js"></script>
-<!-- here stars scrolling icon -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
-		/*
-			var defaults = {
-			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear' 
-			};
-		*/
-							
-		$().UItoTop({ easingType: 'easeOutQuart' });
-							
+		$().UItoTop({ easingType: 'easeOutQuart' });		
 		});
 </script>
-<!-- //here ends scrolling icon -->

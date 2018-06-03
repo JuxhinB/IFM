@@ -17,6 +17,7 @@ class db_conn{
         $this->conn = new mysqli($this->db_path,$this->db_user,$this->db_pass,$this->db_name);
     }
     public function getConn(){
+        $this->connect();
         return $this->conn;
     }
 }

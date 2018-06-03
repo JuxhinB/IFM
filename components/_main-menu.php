@@ -1,3 +1,7 @@
+<?php
+include '../core/session.php';
+$session = new session();
+?>
 <!-- banner -->
 <div class="main_section_agile container-fluid">		
 	<div class="agileits_w3layouts_banner_nav row">
@@ -22,9 +26,9 @@
 						<li class="menu__item"><a href="testimonials.php" class="menu__link">Testimonials</a></li>
 						<li class="menu__item"><a href="contact.php" class="menu__link">Contact Us</a></li>
 						<li class="menu__item">
-							<button type="button" class="menu__link my-btn" data-toggle="modal" data-target="#log-in-modal">
-									<i class="fa fa-user"></i> Profile
-							</button>
+							<?php
+							echo $session->menu_btn();
+							?>
 						</li>
 					</ul>
 					<div class="log-in-modal modal fade" id="log-in-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -45,7 +49,7 @@
 										<button type="button" data-toggle="modal" data-target="#sign-up-modal" data-dismiss="modal" class="register-here w-75">You don't have an account ? </br>
 										Click here to register</button>
 										<button type="button" class="my-btn-modal w-25" data-dismiss="modal">Close</button>
-										<button type="submit" class="my-btn-modal w-25">Log In</button>
+										<button type="submit" name="submit" class="my-btn-modal w-25">Log In</button>
 										
 									</div>
 								</form>
