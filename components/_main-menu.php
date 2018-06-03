@@ -28,34 +28,37 @@
 						</li>
 					</ul>
 					<div class="log-in-modal modal fade" id="log-in-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						<div class="modal-dialog modal-sm">
+						<div class="modal-dialog " role="document">
 							<div class="modal-content">
 								<form action="../core/log_in.php" method="POST">
 									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 										<h4 class="modal-title" id="myModalLabel">Log In</h4>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
 									</div>
 									<div class="modal-body">
 										<input type="email" name="email" class="form-control" required />
 										<input type="password" name="password" class="form-control" required/>
 									</div>
 									<div class="modal-footer">
-										<button type="button" class="my-btn-modal" data-dismiss="modal">Close</button>
-										<button type="submit" class="my-btn-modal">Log In</button>
-										<button type="button" data-toggle="modal" data-target="#sign-up-modal" data-dismiss="modal" class="register-here">You don't have an account ? </br>
+										<button type="button" data-toggle="modal" data-target="#sign-up-modal" data-dismiss="modal" class="register-here w-75">You don't have an account ? </br>
 										Click here to register</button>
+										<button type="button" class="my-btn-modal w-25" data-dismiss="modal">Close</button>
+										<button type="submit" class="my-btn-modal w-25">Log In</button>
+										
 									</div>
 								</form>
 							</div>
 						</div>
 					</div>
 					<div class="sign-up-modal modal fade" id="sign-up-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						<div class="modal-dialog modal-sm">
+						<div class="modal-dialog " role="document">
 							<div class="modal-content">
 								<form action="../core/sign_up.php" method="POST">
 									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 										<h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 									</div>
 									<div class="modal-body">
 										<input type="Text" name="first-name" class="form-control" placeholder="First Name" required />
