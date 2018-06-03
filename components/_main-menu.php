@@ -20,7 +20,7 @@ $session = new session();
 			<div class="navbar-collapse navbar-right col-12 col-sm-9" id="bs-example-navbar-collapse-1">
 				<nav class="menu--iris">
 					<ul class="nav navbar-nav menu__list flex-row justify-content-center">
-						<li class="menu__item menu__item--current"><a href="index.php" class="menu__link">Home</a></li>
+						<li class="menu__item"><a href="index.php" class="menu__link">Home</a></li>
 						<li class="menu__item"><a href="about.php" class="menu__link">about</a></li>
 						<li class="menu__item"><a href="team.php" class="menu__link">Team</a></li>
 						<li class="menu__item"><a href="testimonials.php" class="menu__link">Testimonials</a></li>

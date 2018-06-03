@@ -2,6 +2,7 @@
 session_start();
 include_once 'db_conn.php';
 include_once 'mailcheck.php';
+include_once 'session.php';
 
 class log_in{
     private $email;
@@ -41,7 +42,9 @@ class log_in{
         if($result>0){
             $user_data = mysqli_fetch_assoc($db_result);
                 if($this->password==$user_data['password']){
-                    $_SESSION['open']='open';
+                    $status = $user_data['status'];
+                    $session = new session();
+                    $session->set_session($status);
                     header("Location: ../public/profile.php");
                     exit();
                 }

@@ -1529,7 +1529,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
   min-height: 100%;
   padding: 0 25px;
   vertical-align: top;
-  width: 280px;
+  width: 200px;
   transition: width 0.3s ease;
   min-height: 75vh; }
   .left-panel .navbar {
@@ -1542,7 +1542,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
       color: #c8c9ce !important;
       display: inline-block;
       font-family: 'Open Sans';
-      font-size: 18px;
+      font-size: 16px;
       line-height: 30px;
       padding: 10px 0;
       position: relative;
@@ -1560,7 +1560,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
       clear: both;
       display: block;
       font-family: 'Open Sans';
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 700;
       line-height: 50px;
       padding: 15px 0 0 0;
