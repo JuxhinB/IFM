@@ -43,8 +43,9 @@ class log_in{
             $user_data = mysqli_fetch_assoc($db_result);
                 if($this->password==$user_data['password']){
                     $status = $user_data['status'];
+                    $user_id = $user_data['id'];
                     $session = new session();
-                    $session->set_session($status);
+                    $session->set_session($status,$user_id);
                     header("Location: ../public/profile.php");
                     exit();
                 }

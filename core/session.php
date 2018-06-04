@@ -4,13 +4,16 @@ session_start();
 class session {
     private $btn;
     private $status;
+    private $user_id;
 
-    public function set_session($status){
+    public function set_session($status,$user_id){
         //1 for admin
         //2 for player
         //3 for manager
         $this->status = $status;
-        $_SESSION['status'] = $status;
+        $this->user_id = $user_id;
+        $_SESSION['status'] = $this->status;
+        $_SESSION['user_id'] = $this->user_id;
     }
 
     public function menu_btn (){

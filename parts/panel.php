@@ -3,13 +3,16 @@
     <div class="row">
         <?php
         if($_SESSION['status']==1){
-            include 'panel/admin_sidebar.php';
+            include 'admin_sidebar.php';
+            include 'admin_body.php';
         }
         elseif($_SESSION['status']==2){
-            include 'panel/player_sidebar.php';
+            include 'player_sidebar.php';
+            include 'player_body.php';
         }
         elseif($_SESSION['status']==3){
-            include 'panel/manager_sidebar.php';
+            include 'manager_sidebar.php';
+            include 'manager_body.php';
         }
         ?>
     </div>
