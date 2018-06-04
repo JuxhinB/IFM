@@ -17,10 +17,10 @@ class session {
     }
 
     public function menu_btn (){
-        if(!isset($_SESSION['status'])){
+        if(!isset($_SESSION['status']) || $_SESSION['status']==0){
             $this->btn = 
                 "<button type='button' class='menu__link my-btn' data-toggle='modal' data-target='#log-in-modal'>
-                    <i class='fa fa-user'></i> Profile
+                    <i class='fa fa-user'></i> Log In
                 </button>";
             return $this->btn; 
         }
@@ -29,6 +29,9 @@ class session {
                 $this->btn = 
                     "<a class='menu__link my-btn' href='profile.php'>
                         <i class='fa fa-user'></i> Profile
+                    </a>
+                    <a class='menu__link my-btn' href='../core/log_out.php'>
+                        <i class='fa fa-unlock'></i> Log Out
                     </a>";
                 return $this->btn;
             }

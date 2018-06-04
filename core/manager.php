@@ -26,6 +26,7 @@ class manager {
             $field .= "<li class='list-group-item'>".$field_id['field_id']."</li>";
         }
         return $field;
+        exit();
     }
 }
 if(isset($_POST['add_field'])){
