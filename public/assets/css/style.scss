@@ -1614,18 +1614,21 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter{
                 display: inline-block;
                 font-family: 'Open Sans';
                 font-size: 16px;
-                line-height: 30px;
                 padding: 10px 0;
                 position: relative;
-                width: 100%;
+                width: 100%; 
+                background-color: transparent;
+                border: 0;
                 i{
                     color: #8b939b;
                     float: left;
-                    margin-top: 8px;
                     width: 55px;
                     text-align: left;
                     z-index: 9;
                 }
+            }
+            .nav-opt:focus{
+                outline: none;
             }
         }
         .menu-title{
@@ -1636,11 +1639,16 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter{
             font-family: 'Open Sans';
             font-size: 16px;
             font-weight: 700;
-            line-height: 50px;
             padding: 15px 0 0 0;
             text-transform: uppercase;
             width: 100%;
             text-align: left;
+            background-color: transparent;
+            border: 0;
+            letter-spacing: 3px;
+        }
+        .menu-title:focus{
+            outline: none;
         }
     }
 }
